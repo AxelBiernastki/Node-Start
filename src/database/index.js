@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-require('dotenv').config();
 
 // Peguei a sua URI e adicionei o nome do banco 'noderest' antes do '?'
 const uri = process.env.MONGO_URL;
